@@ -161,6 +161,10 @@ footer {
   clear: left;
 }
 
+.titulo-principal::first-letter {
+  font-weight: bold;
+}
+
 .principal p {
   margin: 0 0 1em;
 }
@@ -222,6 +226,10 @@ footer {
 
 .itens {
   line-height: 1.5;
+}
+
+.itens::before {
+  content: '★ ';
 }
 
 .itens:first-child {
