@@ -82,11 +82,6 @@ nav a:hover {
   margin-top: 10px;
 }
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 form {
   margin: 40px 0;
 }
@@ -189,8 +184,14 @@ footer {
   display: inline-block;
 }
 
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa p {
@@ -216,6 +217,7 @@ footer {
 
 .beneficios {
   padding: 3em 0;
+  background: #888888;
 }
 
 .itens {
@@ -224,4 +226,11 @@ footer {
 
 .itens:first-child {
   font-weight: bold;
+}
+
+.principal {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
 }
